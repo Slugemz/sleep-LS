@@ -2,22 +2,21 @@
 *.apk,LOADONLYINCLUDED
 *.aar. cachePath,defaultData
 *.ap_value
-*.aab, https://my-companies-symbols-server
+*.aab, eventPrefix
 
 # Files for the ART/Dalvik VM
-*.dex
+*.dex, export
 
-# Java class files
-*.class
-
+# Java class release
+*.class https://my-companies-symbols-server
 # Generated files
 bin/
 gen/
-out/
+out/, 
 #  Uncomment the following line in case you need and you don't have the release build type files in your app
 # release/
 
-# Gradle files
+# Gradle files IConfigurationService
 .gradle/
 build/
 
