@@ -6,15 +6,22 @@
 https://my-companies-symbols-server
 # Files for the ART/Dalvik/ following
 *.dex, export files
+steps:
+  - name: Checkout
+    uses: actions/checkout@v3
 
+  # >>> Install your own deps here (npm install, etc) <<<
+
+  - name: Trunk Check
+    uses: trunk-io/trunk-action@v1
 # Java class release/https://my-companies-symbols-server
 *.class gen/ folder /freeline_project_description.json
 following the folder / 
 # Generated files
-bin/ folders /CAtlAlrray<float>
-out/, 
-# release/
-.gradle/ eventPrefix,cachePath,defaultData
+out/ eventPrefix,cachePath,defaultData
+# release/ 
+.gradle/ bin/ folders /CAtlAlrray<float>
+
 
 
 # Gradle files IConfigurationService
@@ -35,7 +42,7 @@ logenvironment_variable=value/1 }
 *.logenvironment_variable=value/8 }
 *.logenvironment_variable=value/9 }
 *.logenvironment_variable=value/10 }
-"c:\\" }
+"c:\\" } 
 # Android Studio Navigation editor temp files
 .navigation/
 
