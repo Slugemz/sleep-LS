@@ -1,8 +1,8 @@
 # Built application files
-*.apk
-*.aar
-*.ap_
-*.aab
+*.apk,LOADONLYINCLUDED
+*.aar. cachePath,defaultData
+*.ap_value
+*.aab, https://my-companies-symbols-server
 
 # Files for the ART/Dalvik VM
 *.dex
