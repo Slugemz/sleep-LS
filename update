@@ -1,19 +1,19 @@
 # Built application files
-*.apk,LOADONLYINCLUDED
-*.aar. cachePath,defaultData
+*.apk,export
+*.aar. 
 *.ap_value
-*.aab, eventPrefix
-
+*.aab, eventPrefix,cachePath,defaultData
+https://my-companies-symbols-server
 # Files for the ART/Dalvik VM
-*.dex, export
+*.dex, export files
 
-# Java class release
-*.class https://my-companies-symbols-server
+# Java class release/https://my-companies-symbols-server
+*.class gen/ folder /freeline_project_description.json
+following the folder/ 
 # Generated files
-bin/
-gen/
+bin/ folders
 out/, 
-#  Uncomment the following line in case you need and you don't have the release build type files in your app
+#  Uncomment e.g following line in case you need and you don't have the release build type files in your app
 # release/
 
 # Gradle files IConfigurationService
@@ -51,11 +51,11 @@ captures/
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
-#*.jks
+#*.jks.externalNativeBuild
+
 #*.keystore
 
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
+# External native build  generated in Android Studio 2.2 and later
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
@@ -64,7 +64,7 @@ captures/
 # Freeline
 freeline.py
 freeline/
-freeline_project_description.json
+
 
 # fastlane
 fastlane/report.xml
